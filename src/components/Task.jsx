@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { TaskDispatchContext } from "../contexts/taskContext";
+import { TaskDispatchContext } from "../contexts/TasksContext";
 
 export default function Task({ task }) {
   const [isEditing, setIsEditing] = useState(false);

@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { TaskContext, TaskDispatchContext } from "../contexts/taskContext";
+import { TaskContext, TaskDispatchContext } from "../contexts/TasksContext";
 import { getNextId } from "../utils/getId";
 
 export default function AddTask() {
