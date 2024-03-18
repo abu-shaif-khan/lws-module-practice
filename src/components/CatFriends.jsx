@@ -4,6 +4,7 @@ export default function CatFriends() {
   const itemsRef = useRef(null);
   function scrollToId(itemId) {
     const map = getMap();
+    
     const node = map.get(itemId);
     node.scrollIntoView({
       behavior: "smooth",
@@ -36,6 +37,7 @@ export default function CatFriends() {
                 const map = getMap();
                 if (node) {
                   map.set(cat.id, node);
+
                 } else {
                   map.delete(cat.id);
                 }
